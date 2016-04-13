@@ -16,6 +16,8 @@ div.wheater {
     background-image: url(../images/sun_cloud.png);
     background-size: cover;
     margin-bottom: 60px; }
+  div.wheater span.underline {
+    text-decoration: underline; }
   div.wheater span {
     font-weight: 600;
     color: #8B8B8B; }
