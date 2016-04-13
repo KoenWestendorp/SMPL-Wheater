@@ -1,0 +1,36 @@
+@import "https://necolas.github.io/normalize.css/4.1.1/normalize.css"
+@import "https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700"
+@import "variables.sass"
+
+html body
+  background-color: $light
+  font-family: 'Open Sans', sans-serif
+  height: 100vh
+
+div.wheater
+  color: $grey
+  text-align: center
+  margin-top: 35vh
+
+  .icon
+    height: calc(55px * 2)
+    width: calc(85px * 2)
+    margin-left: calc(50% - 85px)
+    background:
+      image: url(../images/sun_cloud.png)
+      size: cover
+    margin-bottom: 60px
+
+
+  span
+    font-weight: 600
+    color: $dark
+
+.copy_right
+  color: $grey
+  font:
+    size: 0.8em
+    weight: 400
+  text-align: right
+  bottom: 0px
+  margin: 10px
